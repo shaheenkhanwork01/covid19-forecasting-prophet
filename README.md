@@ -2,21 +2,20 @@
 
 ## 📌 Project Overview
 
-This project uses the **Prophet model** to predict COVID-19 cases.
+In this project, I used the **Prophet model** to predict COVID-19 cases.
 
-The main goal is to understand the trend of COVID-19 cases and make **short-term forecasts** using time-series forecasting.
+The main goal was to understand the trend of COVID-19 cases and make short-term predictions using time-series forecasting.
 
 ## 🎯 Objectives
 
-* Clean and prepare the COVID-19 data
-* Analyze COVID-19 cases
-* Visualize the trends
-* Build a Prophet forecasting model
-* Predict future COVID-19 cases
-* Evaluate the model
-* Understand the limitations of forecasting
+* Clean the COVID-19 data
+* Understand the data
+* Visualize COVID-19 cases
+* Build a forecasting model
+* Predict future cases
+* Check how well the model performs
 
-## 🛠️ Technologies Used
+## 🛠️ Tools Used
 
 * Python
 * Pandas
@@ -39,28 +38,28 @@ The dataset contains COVID-19 information such as:
 * Recovered cases
 * Active cases
 
-The data was cleaned and prepared before analysis and forecasting.
+I cleaned and prepared the data before using it for forecasting.
 
-## 🔍 Methodology
+## 🔍 What I Did
 
 ### 1. Data Cleaning
 
-The COVID-19 dataset was loaded and cleaned for analysis.
+I loaded the dataset and cleaned the data so it could be used for analysis.
 
 ### 2. Data Analysis
 
-I analyzed the COVID-19 cases over time and used graphs to understand the trend.
+I looked at the COVID-19 cases over time and created graphs to understand the trend.
 
 ### 3. Data Preparation
 
-The data was prepared for Prophet using:
+For Prophet, I prepared the data in the required format:
 
 * `ds` → Date
 * `y` → Confirmed cases
 
 ### 4. Train-Test Split
 
-The **last 7 days** were used as test data.
+I used the **last 7 days** as test data.
 
 The remaining data was used to train the model.
 
@@ -70,77 +69,62 @@ I trained the **Prophet model** using the historical COVID-19 data.
 
 ### 6. Model Evaluation
 
-The model was evaluated using:
+I checked the model using:
 
-* MAE — Mean Absolute Error
-* MSE — Mean Squared Error
-* RMSE — Root Mean Squared Error
-* MAPE — Mean Absolute Percentage Error
+* MAE
+* MSE
+* RMSE
+* MAPE
 
 ## 📈 Results
 
-The Prophet model achieved:
+The model achieved:
 
 **MAPE = 4.02%**
 
 This means the predictions were fairly close to the actual values during the 7-day test period.
 
-The model followed the overall trend but predicted fewer cases than the actual values during the last few days.
+The model followed the overall trend, but it predicted fewer cases than the actual number during the last few days.
 
-## 🧠 Final Interpretation
+## 🧠 My Understanding
 
-I used the **Prophet model** to predict COVID-19 cases.
+I used Prophet to predict COVID-19 cases.
 
-The model was tested on the last **7 days** of data. The MAPE was **4.02%**, which shows that the predictions were fairly close to the actual values.
+The model was able to understand the general trend and gave fairly good short-term predictions. However, the predictions were not perfect.
 
-However, the model predicted fewer cases than the actual number during the last few days.
+COVID-19 cases can change because of many outside factors, so the model cannot always predict the exact number of cases.
 
-## ✅ Conclusion
+## 📝 Conclusion
 
-Overall, the Prophet model was able to understand the general trend and make fairly good **short-term predictions**.
+Overall, Prophet worked well for understanding the trend and making short-term predictions.
 
-This project helped me learn:
+Through this project, I learned about:
 
 * Data cleaning
 * Data analysis
 * Data visualization
 * Time-series forecasting
-* Prophet model implementation
+* Prophet
 * Model evaluation
 
-However, COVID-19 cases can change because of many outside factors. Therefore, the model may not always give accurate predictions.
-
-**Final conclusion:** The model is useful for **short-term forecasting**, but it should not be considered a perfect long-term prediction model.
+This project is mainly useful for **learning and short-term forecasting**.
 
 ## 🚀 Google Colab
 
-The complete project can be viewed and run in Google Colab:
+I created this project using Google Colab.
 
 👉 [**Open COVID-19 Forecasting Project in Google Colab**](https://colab.research.google.com/drive/1H66A9spwlKd3GkxknNKqRAzpDG8ImXHm?usp=sharing)
 
 ## 📁 Project Files
 
-* `covid19_forecasting_prophet.ipynb` — Complete project notebook
-* `README.md` — Project documentation
-
-## 📚 Learning Outcomes
-
-Through this project, I learned:
-
-* Data cleaning
-* Data analysis
-* Data visualization
-* Time-series forecasting
-* Prophet model implementation
-* Train-test splitting
-* Model evaluation
-* Result interpretation
+* `covid19_forecasting_prophet.ipynb` — Project notebook
+* `README.md` — Project information
 
 ## ⚠️ Limitations
 
-COVID-19 cases can change because of many external factors. Therefore, the model may not always produce accurate predictions.
+COVID-19 cases are affected by many factors, so the model may not always give accurate predictions.
 
-This project is mainly focused on **short-term forecasting**.
+The model should mainly be used for **short-term forecasting**, not as a perfect long-term prediction.
 
 ## 👨‍💻 Author
 
