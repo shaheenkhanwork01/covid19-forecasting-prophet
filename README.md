@@ -86,14 +86,6 @@ This means the predictions were fairly close to the actual values during the 7-d
 
 The model followed the overall trend, but it predicted fewer cases than the actual number during the last few days.
 
-## 🧠 My Understanding
-
-I used Prophet to predict COVID-19 cases.
-
-The model was able to understand the general trend and gave fairly good short-term predictions. However, the predictions were not perfect.
-
-COVID-19 cases can change because of many outside factors, so the model cannot always predict the exact number of cases.
-
 ## 📝 Conclusion
 
 Overall, Prophet worked well for understanding the trend and making short-term predictions.
