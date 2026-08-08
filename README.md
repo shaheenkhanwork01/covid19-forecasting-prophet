@@ -109,8 +109,9 @@ I created this project using Google Colab.
 
 ## 📁 Project Files
 
-* `covid19_forecasting_prophet.ipynb` — Project notebook
-* `README.md` — Project information
+
+[Open the Jupyter Notebook](covid19_forecasting_prophet)
+
 
 ## ⚠️ Limitations
 
